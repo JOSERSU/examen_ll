@@ -26,7 +26,7 @@ app.use(cors())
 
 
 
-app.get('/productos',(req,res)=>{
+app.get('/',(req,res)=>{
     res.render('table-datatable-basic')
 })
 
